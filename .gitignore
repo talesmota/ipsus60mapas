@@ -1,0 +1,8 @@
+node_modules
+dist
+*.log
+.DS_Store
+
+# GeoJSON locais ficam fora do git; o app já tem fallback online
+public/geo/*.json
+!public/geo/README.txt
